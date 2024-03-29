@@ -4,4 +4,5 @@
 
 ### Run server
 
-`uvicorn main:app --reload`
+- `pipenv shell`
+- `uvicorn src.main:app --reload`
