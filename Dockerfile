@@ -28,6 +28,6 @@ COPY src /src
 
 ENV PATH="/opt/venv/bin:$PATH"
 
-EXPOSE 8080
+EXPOSE 8083
 
 CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8083"]
