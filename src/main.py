@@ -55,4 +55,4 @@ async def auth(credentials: LoginCredentials):
         builder.set_root_key_id(1)
         token = builder.build(private_key)
         token_string: str = token.to_base64()
-        return {"token", token_string}
+        return {"token": token_string}
