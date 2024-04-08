@@ -7,6 +7,12 @@ name = "pypi"
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 pydantic-settings = "*"
+bcrypt = "*"
+psycopg = {extras = ["binary", "pool"], version = "*"}
+sqlmodel = "*"
+asyncpg = "*"
+psycopg2 = "*"
+biscuit-python = "*"
 
 [dev-packages]
 
